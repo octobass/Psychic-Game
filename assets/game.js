@@ -1,25 +1,3 @@
-<!DOCTYPE html>
-<html lang="en-us">
-
-<head>
-  <meta charset="UTF-8">
-  <title>Psychic Game
-  </title>
-</head>
-
-<body>
-
-  <div id="game">
-    <h1>The Psychic Game</h1>
-    <h2>Guess what letter I'm thinking of</h2>
-    <h2 id="wins">Wins: 0</h2>
-    <h2 id="losses">Losses: 0</h2>
-    <h2 id="guessesLeft">Guesses left: 10</h2>
-    <h2 id="guessesSoFar">Your guesses so far: </h2>
-
-  </div>
-
-  <script type="text/javascript">
     var wins = 0;
     var losses = 0;
     var guessesLeft = 10;
@@ -57,8 +35,3 @@
       document.getElementById("guessesSoFar").innerHTML = ("Your guesses so far: " + guessesSoFar); 
 
     };
-  </script>
-
-</body>
-
-</html>
