@@ -18,6 +18,7 @@
         guessesSoFar = [];
         guessesLeft = 10;
         wins++;
+        computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
       }
 
       if (guessesLeft === 0) {
